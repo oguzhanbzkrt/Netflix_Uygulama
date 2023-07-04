@@ -5,14 +5,19 @@
     background-position: center;
     background-size: cover;
 }
-.row{
+/* .row{
     height: 400px;
-}
+} */
 /* .container{
     position: absolute;
     left: 300px;
     top: -30px;
 } */
+
+
+.headerBody{
+    height: 500px;
+}
 
 .box{
     width: auto;
@@ -22,4 +27,12 @@
 }
 .container h1{
     font-size: 50px;
+}
+
+#button-addon2{
+    width: 180px;
+}
+
+input::placeholder{
+    color: white !important;
 }
