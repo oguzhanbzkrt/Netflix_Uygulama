@@ -1,10 +1,25 @@
 .netflixHeader{
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .5)) , url(img/arkaplan.jpg);
+    height: 75vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .5)) , url(img/netflix_arkaplan_1.jpg);
     background-position: center;
     background-size: cover;
 }
 .row{
-    height: 600px;
+    height: 400px;
+}
+/* .container{
+    position: absolute;
+    left: 300px;
+    top: -30px;
+} */
+
+.box{
+    width: auto;
+    height: 10px;
+    background-color: rgb(53, 53, 53);
+    
+}
+.container h1{
+    font-size: 50px;
 }
