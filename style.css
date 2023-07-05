@@ -5,20 +5,6 @@
     background-position: center;
     background-size: cover;
 }
-/* .row{
-    height: 400px;
-} */
-/* .container{
-    position: absolute;
-    left: 300px;
-    top: -30px;
-} */
-
-
-.headerBody{
-    height: 500px;
-}
-
 .box{
     width: auto;
     height: 10px;
@@ -35,4 +21,8 @@
 
 input::placeholder{
     color: white !important;
+}
+
+.MyHeight{
+    height: 500px;
 }
