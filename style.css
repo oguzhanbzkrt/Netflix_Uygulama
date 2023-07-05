@@ -18,11 +18,13 @@
 #button-addon2{
     width: 180px;
 }
-
 input::placeholder{
     color: white !important;
 }
-
 .MyHeight{
-    height: 500px;
+    height: 600px;
+}
+img{
+    width: 150px;
+    height: 60px;
 }
