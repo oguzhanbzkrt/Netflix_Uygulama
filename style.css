@@ -116,3 +116,23 @@ header button a{
     background-position: center;
     background-size: cover;
 }
+.SignInBody .col-4{
+    padding-bottom: 20%;
+
+}
+.SignInBody .row>*{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+#floatingInput::placeholder{
+    color: rgb(126,134,141) !important;
+}
+#floatingPassword::placeholder{
+    color: rgb(126,134,141) !important; 
+}
+.form-control{
+    border: none;
+}
+.form-floating>label{
+    color: white;
+}
