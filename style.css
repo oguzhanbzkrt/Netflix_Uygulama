@@ -147,7 +147,7 @@ header button a{
 footer ul li a , p{
     color: rgb(148, 148, 148);
 }
-footer{
+#footerHelp{
     margin-top: 200px;
     background-color: black;
     opacity: 70%;
