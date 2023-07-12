@@ -105,19 +105,26 @@ footer ul li a , p{
 
 /********************************************************************* OTURUM AÇMA SAYFASI ***********************************************************************************************/
 
+#BackImg{
+    /* background-image: url(img/arkaplan.jpg); */
+    background-image: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .5)) , url(img/netflix_arkaplan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 header button a{
     text-decoration: none;
     color: white;
 }
 .netflixSignIn{
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .5)) , url(img/netflix_arkaplan.jpg);
+    /* height: 100vh; */
+    /* background-image: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .5)) , url(img/netflix_arkaplan.jpg); */
     background-position: center;
     background-size: cover;
 }
 .SignInBody .col-4{
-    padding-bottom: 20%;
+    padding-bottom: 8%;
 
 }
 .SignInBody .row>*{
@@ -130,9 +137,19 @@ header button a{
 #floatingPassword::placeholder{
     color: rgb(126,134,141) !important; 
 }
-.form-control{
+.SignInBody .form-control{
     border: none;
+    color: white;
 }
 .form-floating>label{
     color: white;
+}
+footer ul li a , p{
+    color: rgb(148, 148, 148);
+}
+footer{
+    margin-top: 200px;
+    background-color: black;
+    opacity: 70%;
+    max-height: 200px;
 }
