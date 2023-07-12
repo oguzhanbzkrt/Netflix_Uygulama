@@ -118,8 +118,6 @@ header button a{
 }
 .netflixSignIn{
     width: 100%;
-    /* height: 100vh; */
-    /* background-image: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .5)) , url(img/netflix_arkaplan.jpg); */
     background-position: center;
     background-size: cover;
 }
@@ -152,4 +150,25 @@ footer ul li a , p{
     background-color: black;
     opacity: 70%;
     max-height: 200px;
+}
+.form-check-input:checked{
+    background-color: rgb(126,134,141);
+    border-color: rgb(126,134,141);
+}
+
+
+/********************************************************************* PROFİL SAYFASI ***********************************************************************************************/
+
+.ProfileSet img{
+    width: 200px;
+    height: 200px;
+}
+.ProfileSet h1{
+    font-size: 70px;
+}
+.ProfileHeight{
+    height: 300px;
+}
+.ProfileSet .col-4{
+    margin-top: 150px;
 }
