@@ -9,7 +9,7 @@
 </head>
 <body id="AccountSetting">
     <header class="AccountSet">
-        <nav class="navbar">
+        <nav class="navbar" id="NavSet">
                 <a href="index.html"><img id="logo" src="img/logo.png" alt=""></a>
                 <img id="userlogo" src="kullanıcılar/kullanici1.png" alt="">
         </nav>
@@ -29,6 +29,7 @@
             <div class="row">
                 <div class="col-3">
                     <h3>ÜYELİK VE ÖDEMELER</h3>
+                    <button type="button" class="btn btn-light">Üyeliği İptal Et</button>
                 </div>
                 <div class="col-4">
                     <p><b>bozkurt.oguzhan@outlook.com</b></p>
@@ -56,12 +57,144 @@
                 </div>
             </div>
             <hr>
-            <!-- <div class="row justify-content-start">
-                <div class="col-3">
-                    <button type="button" class="btn btn-light">Üyeliği İptal Et</button>
-                </div>
-            </div> -->
         </div>
     </section>
+    <section class="planDetail">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h3>PLAN AYRINTILARI</h3>
+                </div>
+                <div class="col-4">
+                    <div class="creditcard d-flex">
+                        <h5 class="">Özel</h5>
+                        <h5 id="ultraHD">ULTRA <b>HD</b></h5>
+                    </div>
+                </div>
+                <div class="col-5 text-end">
+                    <a href="#"><p>Planı değiştir</p></a>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <section class="privacy">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h3>GÜVENLİK VE GİZLİLİK</h3>
+                </div>
+                <div class="col-4">
+                    <div class="creditcard d-flex">
+                        <P>Bu hesaba kimlerin erişebileceğini kontrol edin, en son kullanılan cihazları görüntüleyin ve daha fazlasını yapın.</P>
+                    </div>
+                </div>
+                <div class="col-5 text-end">
+                    <a href="#"><p>Erişim izinlerini ve cihazları yönet</p></a>
+                    <a href="#"><p>Tüm cihazlarda oturumu kapat</p></a>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <section class="control">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h3>PROFİL VE EBEVEYN KONTROLLERİ</h3>
+                </div>
+                <div class="col-9">
+                    <div class="users d-flex">
+                        <img src="kullanıcılar/kullanici1.png" alt="">
+                        <div class="usersNext">
+                            <p class="ms-3 text-black fw-bolder">Kullanıcı-1</p>
+                            <p class="ms-3">Tüm yetişkinlik düzeyleri</p>
+                        </div>  
+                    </div>
+                    <hr>
+                    <div class="users d-flex">
+                        <img src="kullanıcılar/kullanici2.png" alt="">
+                        <div class="usersNext">
+                            <p class="ms-3 text-black fw-bolder">Kullanıcı-2</p>
+                            <p class="ms-3">Tüm yetişkinlik düzeyleri</p>
+                        </div>  
+                    </div>
+                    <hr>
+                    <div class="users d-flex">
+                        <img src="kullanıcılar/kullanici3.png" alt="">
+                        <div class="usersNext">
+                            <p class="ms-3 text-black fw-bolder">Kullanıcı-3</p>
+                            <p class="ms-3">Tüm yetişkinlik düzeyleri</p>
+                        </div>  
+                    </div>
+                    <hr>
+                    <div class="users d-flex">
+                        <img src="kullanıcılar/kullanici4.png" alt="">
+                        <div class="usersNext">
+                            <p class="ms-3 text-black fw-bolder">Kullanıcı-4</p>
+                            <p class="ms-3">Tüm yetişkinlik düzeyleri</p>
+                        </div>  
+                    </div>
+                    <hr>
+                    <div class="users d-flex">
+                        <img src="kullanıcılar/kullanici5.png" alt="">
+                        <div class="usersNext">
+                            <p class="ms-3 text-black fw-bolder">Kullanıcı-5</p>
+                            <p class="ms-3">Üst sınır 10+</p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <section class="setting">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h3>AYARLAR</h3>
+                </div>
+                <div class="col-5">
+                    <a href="#"><p>18+ İçeriklere Erişim PIN'i</p></a>
+                    <a href="#"><p>Profil transferi özelliğini kapat</p></a>
+                    <a href="#"><p>Teste katılım</p></a>
+                    <a href="#"><p>İçerik indirilen cihazları yönet</p></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <footer class="questions">
+            <ul>
+                <li><p>Sorularınız mı var? Bizi arayın</p></li>
+            </ul>
+            <div class="row">
+                <div class="col-2 lh-lg">
+                    <ul>
+                        <li><a href="">Selendirme ve Alt Yazı</a></li>
+                        <li><a href="">Medya Merkezi</a></li>
+                        <li><a href="">Gizlilik Bildirimi</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 lh-lg">
+                    <ul>
+                        <li><a href="">Yardım Merkezi</a></li>
+                        <li><a href="">İş İmkanları</a></li> 
+                    </ul>
+                </div>   
+                <div class="col-2 lh-lg">
+                    <ul>
+                        <li><a href="">Hediye Kartları</a></li>
+                        <li><a href="">Çerez Tercihleri</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 lh-lg">
+                    <ul>
+                        <li><a href="">Yatırımcı İlişkileri</a></li>
+                        <li><a href="">Kullanım Koşulları</a></li>
+                    </ul>
+                </div>
+            </div>
+    </footer>    
 </body>
 </html>
