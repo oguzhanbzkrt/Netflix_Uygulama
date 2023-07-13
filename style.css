@@ -111,7 +111,6 @@ footer ul li a , p{
     background-position: center;
     background-size: cover;
 }
-
 header button a{
     text-decoration: none;
     color: white;
@@ -128,6 +127,9 @@ header button a{
 .SignInBody .row>*{
     padding-left: 4%;
     padding-right: 4%;
+}
+.SignInBody a button{
+    width: 100%;
 }
 #floatingInput::placeholder{
     color: rgb(126,134,141) !important;
@@ -171,4 +173,64 @@ footer ul li a , p{
 }
 .ProfileSet .col-4{
     margin-top: 150px;
+}
+.ProfileSet .col-3{
+    margin-top: 100px;
+}
+.btn-outline-secondary:hover{
+    background-color: transparent;
+    border-color: white;
+}
+.btn-group-lg > .btn, .btn-lg{
+    padding: 1rem 4rem 1rem 4rem;
+    font-size: 1.5rem;
+    border-radius: 0;
+    transition: none;
+}
+.ProfileSet a{
+    text-decoration: none;
+}
+.ProfileSet .col-2 .box h4:hover {
+    color: white !important;
+}
+.ProfileSet .col-2 a img:hover{
+    border: 3px solid white;
+}
+/********************************************************************* HESAP SAYFASI ***********************************************************************************************/
+#AccountSetting{
+    background-color: white;
+}
+nav{
+    background-color: black;
+    
+}
+nav #logo{
+    width: 150px;
+    height: 50px;
+    margin-left: 2rem;
+}
+nav #userlogo{
+    width: 40px;
+    height: 40px;
+    margin-right: 2rem;
+    border-radius: 5px ;
+}
+.membership h3{
+    color: rgb(141, 141, 141);
+}
+.membership button{
+    width: 92%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.membership img{
+    height: 20px;
+}
+.membership a p{
+    color: blue;
+}
+.membership .col-4 p{
+    color: black;
+}
+#hr{
+    color: rgb(206, 203, 203);
 }
