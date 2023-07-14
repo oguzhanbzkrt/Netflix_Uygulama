@@ -250,3 +250,34 @@ nav #userlogo{
 
 /********************************************************************* İÇERİK SAYFASI ***********************************************************************************************/
 
+#icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+#netflixlogo{
+    margin-left: 2rem;
+    width: 100px;
+    height: 40px;
+}
+#navbarNavAltMarkup a{
+    color: white;
+}
+.moviePage{
+    width: 100%;
+    height: 90vh;
+    background-image: url(img/titan.webp);
+    background-position: center;
+    background-size: cover;
+}
+.headerMovie .titanHeight{
+    height: 600px;
+}
+#list{
+    color: white;
+    margin-top: 100px;
+    margin-left: 2rem;
+}
+.myList{
+    margin-left: 2rem;
+}
